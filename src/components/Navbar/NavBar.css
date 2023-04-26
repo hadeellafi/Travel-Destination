@@ -1,0 +1,20 @@
+*{font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;}
+.navbar{
+    background-color: #b12d7c;
+    color: antiquewhite;
+    font-size: 33px;
+}
+.logo{
+    color: antiquewhite;
+    font-size: 55px;
+}
+.link {
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5px;
+}
+.link:hover{
+    color: #f1daa9;
+}
