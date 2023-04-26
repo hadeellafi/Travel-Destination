@@ -1,10 +1,13 @@
+
+import NavBar from '../Navbar/NavBar';
 import './Header.css';
+
+
 function Header(){
     return(
-    <>
-<h1>
-    Hello in Travel-Destination </h1>
-    </>
+        <>
+        <NavBar/>
+        </>
     )
 }
 export default Header;

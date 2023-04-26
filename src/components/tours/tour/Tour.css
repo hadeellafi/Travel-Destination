@@ -1,0 +1,33 @@
+.tourDiv {
+    border: solid 4px #b12d7c;
+    max-width: 60%;
+    min-width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: #b12d7c;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+Link .title {
+    color: #b12d7c;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+Link {
+    text-decoration: none;
+}
+
+.tourDiv img {
+    width: 80%;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

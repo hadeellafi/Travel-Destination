@@ -1,4 +1,5 @@
 import  "./Tours.css"
+import Tour from"./tour/Tour"
 function Tours(props) {
     return (
         <>
@@ -6,10 +7,7 @@ function Tours(props) {
         <section className="main">
             {props.data.map((tour) => {
                 return(
-                <div className="tourDiv" key={tour.id}>
-                    <h3>{tour.name}</h3>
-                    <img src={tour.image} alt=""></img>
-                </div>
+                    <Tour tour={tour} key={tour.id} />
                 )
             }
             )}

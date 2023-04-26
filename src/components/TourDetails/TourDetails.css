@@ -1,0 +1,47 @@
+.card
+{
+    margin: 30px auto 50px auto;
+    text-align: center;
+    border: solid 4px #b12d7c;
+    background-color: antiquewhite;
+    
+}
+.title{
+    color: #b12d7c;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+.img {
+    width: 60%;
+    max-width: fit-content;
+    margin: 0px auto 0px auto;
+}
+.text{
+    width: 60%;
+    min-width: fit-content;
+    color: #b12d7c;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    margin: 20px 10px 10px 10px;
+}
+button
+{
+    margin: 2px;
+    border: none;
+    background-color: antiquewhite;
+    color: #b12d7c;
+    font-size: 25px;
+    font-style: italic;
+}
+button:hover{
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+
+}
