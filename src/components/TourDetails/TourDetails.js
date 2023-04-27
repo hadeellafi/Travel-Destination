@@ -36,7 +36,7 @@ function TourDetailes() {
                     <Card.Title className="title">{city.name}</Card.Title>
                     <Card.Img src={city.image} alt={city.name} className="img" />
                     <Card.Text className="text">
-                        {city.info.slice(0, Math.floor(city.info.length / 2))} {total}<button onClick={fullText}>{show} </button>
+                        {city.info.slice(0, Math.floor(city.info.length / 2))}{total}<button onClick={fullText}>{show} </button>
                     </Card.Text>
                 </Card.Body>
             </Card>
